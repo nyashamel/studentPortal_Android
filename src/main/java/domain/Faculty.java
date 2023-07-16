@@ -1,10 +1,12 @@
 package domain;
 
-import jakarta.persistence.*;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+
+import javax.persistence.*;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -17,9 +19,14 @@ public class Faculty {
     private Long degreeId;
     private Long facultyId;
 
-    public void setFacultyId(Long facultyId) {this.facultyId = facultyId;}
+    public void setFacultyId(Long facultyId) {
+        this.facultyId = facultyId;
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "faculty_Id",nullable = false)
-    public Long getFacultyId() {return facultyId;}
+    public Long getFacultyId() {
+        return facultyId;
+    }
 }

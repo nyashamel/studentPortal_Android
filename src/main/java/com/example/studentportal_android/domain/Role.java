@@ -1,4 +1,4 @@
-package domain;
+package com.example.studentportal_android.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -13,6 +13,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Entity
 public class Role {
+    private String roleName;
     private Long roleId;
 
     public void setRoleId(Long roleId) {
@@ -26,11 +27,6 @@ public class Role {
         return roleId;
     }
 
-    private enum roleName {
-        ADMIN,
-        HOD,
-        STUDENT
-    }
 
 }
 

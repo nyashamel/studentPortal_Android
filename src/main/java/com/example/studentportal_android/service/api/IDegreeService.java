@@ -1,6 +1,6 @@
 package com.example.studentportal_android.service.api;
 
-import domain.Degree;
+import com.example.studentportal_android.domain.Degree;
 
 import java.util.List;
 

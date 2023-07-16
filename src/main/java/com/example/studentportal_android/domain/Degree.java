@@ -1,4 +1,4 @@
-package domain;
+package com.example.studentportal_android.domain;
 
 
 import lombok.AllArgsConstructor;

@@ -2,7 +2,7 @@ package com.example.studentportal_android.service.impl;
 
 import com.example.studentportal_android.repository.DegreeRepository;
 import com.example.studentportal_android.service.api.IDegreeService;
-import domain.Degree;
+import com.example.studentportal_android.domain.Degree;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

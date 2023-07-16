@@ -30,7 +30,7 @@ public class UserServiceImpl implements IUserInterface {
     }
 
     @Override
-    public User updateUser(Long userId, User user) {
+    public User updatedUser(Long userId, User user) {
         //find the ID provided
         Optional<User> optionalUser = userRepository.findById(userId);
 

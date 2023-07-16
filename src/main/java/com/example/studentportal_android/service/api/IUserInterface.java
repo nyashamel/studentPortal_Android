@@ -10,7 +10,7 @@ public interface IUserInterface {
     //Read Operation
     List<User> getAllUsers();
     //Update Operation
-    User updateUser (Long userId, User user);
+    User updatedUser (Long userId, User user);
     //Delete Operation
     void  deleteUser (Long userId);
 }

@@ -29,7 +29,7 @@ public class DegreeController {
         return updatedDegree;
     }
     @DeleteMapping("/delete/{degreeId}")
-    public void deleteDegree(@PathVariable Long degreeId){
+    public void deleteDegree(@PathVariable Long degreeId) {
         iDegreeService.deleteDegree(degreeId);
     }
 }

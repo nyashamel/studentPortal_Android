@@ -18,7 +18,7 @@ public class FacultyController {
         return iFacultyService.createFaculty(faculty);
     }
     //read
-    @GetMapping("/readfaculty")
+    @GetMapping("/readFaculty")
     public List<Faculty> getAllFaculty() {
         List<Faculty> faculties = iFacultyService.getAllFaculties();
         return faculties;

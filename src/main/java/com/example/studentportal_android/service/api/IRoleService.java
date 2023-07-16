@@ -10,7 +10,7 @@ public interface IRoleService {
     //Read Operation
     List<Role> getAllRoles();
     //Update Operation
-    Role updateRoles (Long roleId, Role role);
+    Role updatedRoles (Long roleId, Role role);
     //Delete Operation
     void  deleteRole (Long roleId);
 }

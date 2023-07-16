@@ -26,12 +26,12 @@ public class RoleServiceImpl implements IRoleService {
 
     @Override
     public List<Role> getAllRoles() {
-        List<Role> getRoles = roleRepository.findAll();
-        return getRoles;
+        List<Role> Roles = roleRepository.findAll();
+        return Roles;
     }
 
     @Override
-    public Role updateRoles(Long roleId, Role role) {
+    public Role updatedRoles(Long roleId, Role role) {
     //find the Id provided
         Optional<Role> optionalRole = roleRepository.findById(roleId);
         //If found then update

@@ -8,9 +8,9 @@ public interface IFacultyService  {
     //Create operation
     Faculty createFaculty(Faculty faculty);
     //Read Operation
-    List<Faculty> getAllFaculty();
+    List<Faculty> getAllFaculties();
     //Update Operation
-    Faculty updateFaculty (Long facultyId, Faculty faculty);
+    Faculty updatedFaculty (Long facultyId, Faculty faculty);
     //Delete Operation
     void  deleteFaculty (Long facultyId);
 }

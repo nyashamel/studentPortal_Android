@@ -32,7 +32,7 @@ public class DegreeServiceImpl implements IDegreeService {
     }
 
     @Override
-    public Degree updateDegree(Long degreeId, Degree degree) {
+    public Degree updatedDegree(Long degreeId, Degree degree) {
         Optional<Degree> optionalDegree = degreeRepository.findById(degreeId);
         //If found update
         if (!optionalDegree.isPresent()) {

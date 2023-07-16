@@ -27,13 +27,13 @@ public class FacultyServiceImpl implements IFacultyService {
     }
 
     @Override
-    public List<Faculty> getAllFaculty() {
-        List<Faculty> getFaculties = facultyRepository.findAll();
-        return getFaculties;
+    public List<Faculty> getAllFaculties() {
+        List<Faculty> getAllFaculties = facultyRepository.findAll();
+        return getAllFaculties;
     }
 
     @Override
-    public Faculty updateFaculty(Long facultyId, Faculty faculty) {
+    public Faculty updatedFaculty(Long facultyId, Faculty faculty) {
         //find the Id Provided
         Optional<Faculty> optionalFaculty = facultyRepository.findById(facultyId);
 

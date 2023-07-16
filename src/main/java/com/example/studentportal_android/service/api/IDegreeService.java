@@ -10,7 +10,7 @@ public interface IDegreeService {
     //Read Operation
     List<Degree> getAllDegrees();
     //Update Operation
-    Degree updateDegree (Long degreeId, Degree degree);
+    Degree updatedDegree (Long degreeId, Degree degree);
     //Delete Operation
     void  deleteDegree (Long degreeId);
 }

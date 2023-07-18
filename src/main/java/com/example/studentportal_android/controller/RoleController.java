@@ -11,6 +11,7 @@ package com.example.studentportal_android.controller;
 
 @RestController
 @RequiredArgsConstructor
+@RequestMapping("role")
 public class RoleController {
     @Autowired
     private final RoleServiceImpl roleServiceImpl;

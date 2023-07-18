@@ -11,7 +11,6 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-
 public class DegreeController {
 
     private final IDegreeService iDegreeService;

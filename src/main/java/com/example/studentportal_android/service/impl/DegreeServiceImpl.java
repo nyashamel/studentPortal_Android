@@ -14,7 +14,6 @@ public class DegreeServiceImpl implements IDegreeService {
 
     private final DegreeRepository degreeRepository;
 
-    @Autowired
     public DegreeServiceImpl(DegreeRepository degreeRepository) {
         this.degreeRepository = degreeRepository;
     }

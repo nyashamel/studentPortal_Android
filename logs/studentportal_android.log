@@ -1,25 +1,25 @@
-"2023-07-16 21:48:45,067 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : Starting StudentPortalAndroidApplication using Java 11.0.18 on cas-lap-nmasese with PID 13172 (C:\Users\nyasha.masese\StudentPortal_Android\target\classes started by Nyasha.Masese in C:\Users\nyasha.masese\StudentPortal_Android)
-""2023-07-16 21:48:45,070 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : No active profile set, falling back to 1 default profile: "default"
-""2023-07-16 21:48:45,865 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2023-07-16 21:48:45,959 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 4 JPA repository interfaces.
-""2023-07-16 21:48:46,712 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8027 (http)
-""2023-07-16 21:48:46,722 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
-""2023-07-16 21:48:46,722 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.71]
-""2023-07-16 21:48:46,841 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/student] : Initializing Spring embedded WebApplicationContext
-""2023-07-16 21:48:46,842 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1702 ms
-""2023-07-16 21:48:47,316 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
-""2023-07-16 21:48:47,633 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
-""2023-07-16 21:48:48,442 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2023-07-16 21:48:48,649 WARN  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
-""2023-07-16 21:48:48,649 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-""2023-07-16 21:48:48,651 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
-""2023-07-16 21:48:48,665 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
-""2023-07-16 21:48:48,667 INFO  [main] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
-""2023-07-16 21:48:48,680 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
+"2023-07-18 09:32:04,335 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : Starting StudentPortalAndroidApplication using Java 11.0.18 on cas-lap-nmasese with PID 9712 (C:\Users\nyasha.masese\StudentPortal_Android\target\classes started by Nyasha.Masese in C:\Users\nyasha.masese\StudentPortal_Android)
+""2023-07-18 09:32:04,344 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : No active profile set, falling back to 1 default profile: "default"
+""2023-07-18 09:32:05,164 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-07-18 09:32:05,218 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 4 JPA repository interfaces.
+""2023-07-18 09:32:05,783 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8027 (http)
+""2023-07-18 09:32:05,790 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+""2023-07-18 09:32:05,791 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.71]
+""2023-07-18 09:32:05,898 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/student] : Initializing Spring embedded WebApplicationContext
+""2023-07-18 09:32:05,898 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1493 ms
+""2023-07-18 09:32:06,288 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+""2023-07-18 09:32:06,521 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+""2023-07-18 09:32:07,048 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-18 09:32:07,181 WARN  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+""2023-07-18 09:32:07,182 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-18 09:32:07,184 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+""2023-07-18 09:32:07,195 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+""2023-07-18 09:32:07,197 INFO  [main] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+""2023-07-18 09:32:07,211 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-""2023-07-16 21:48:48,706 ERROR [main] org.springframework.boot.SpringApplication : Application run failed
-"org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+""2023-07-18 09:32:07,239 ERROR [main] org.springframework.boot.SpringApplication : Application run failed
+"org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
 	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
@@ -40,7 +40,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
 	at com.example.studentportal_android.StudentPortalAndroidApplication.main(StudentPortalAndroidApplication.java:10)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
 	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
@@ -57,7 +57,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
 	... 19 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
@@ -89,28 +89,28 @@ Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.exa
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
 	... 44 common frames omitted
-"2023-07-16 22:55:30,041 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : Starting StudentPortalAndroidApplication using Java 11.0.18 on cas-lap-nmasese with PID 34516 (C:\Users\nyasha.masese\StudentPortal_Android\target\classes started by Nyasha.Masese in C:\Users\nyasha.masese\StudentPortal_Android)
-""2023-07-16 22:55:30,045 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : No active profile set, falling back to 1 default profile: "default"
-""2023-07-16 22:55:30,994 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2023-07-16 22:55:31,075 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 4 JPA repository interfaces.
-""2023-07-16 22:55:32,011 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8027 (http)
-""2023-07-16 22:55:32,023 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
-""2023-07-16 22:55:32,024 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.71]
-""2023-07-16 22:55:32,170 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/student] : Initializing Spring embedded WebApplicationContext
-""2023-07-16 22:55:32,171 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2042 ms
-""2023-07-16 22:55:32,848 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
-""2023-07-16 22:55:33,174 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
-""2023-07-16 22:55:34,096 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2023-07-16 22:55:34,366 WARN  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
-""2023-07-16 22:55:34,366 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-""2023-07-16 22:55:34,369 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
-""2023-07-16 22:55:34,386 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
-""2023-07-16 22:55:34,389 INFO  [main] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
-""2023-07-16 22:55:34,403 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
+"2023-07-18 09:35:06,250 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : Starting StudentPortalAndroidApplication using Java 11.0.18 on cas-lap-nmasese with PID 6300 (C:\Users\nyasha.masese\StudentPortal_Android\target\classes started by Nyasha.Masese in C:\Users\nyasha.masese\StudentPortal_Android)
+""2023-07-18 09:35:06,253 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : No active profile set, falling back to 1 default profile: "default"
+""2023-07-18 09:35:06,765 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-07-18 09:35:06,798 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 4 JPA repository interfaces.
+""2023-07-18 09:35:07,228 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8027 (http)
+""2023-07-18 09:35:07,233 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+""2023-07-18 09:35:07,233 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.71]
+""2023-07-18 09:35:07,302 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/student] : Initializing Spring embedded WebApplicationContext
+""2023-07-18 09:35:07,302 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1012 ms
+""2023-07-18 09:35:07,571 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+""2023-07-18 09:35:07,739 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+""2023-07-18 09:35:08,098 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-18 09:35:08,206 WARN  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+""2023-07-18 09:35:08,206 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-18 09:35:08,207 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+""2023-07-18 09:35:08,216 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+""2023-07-18 09:35:08,217 INFO  [main] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+""2023-07-18 09:35:08,226 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-""2023-07-16 22:55:34,435 ERROR [main] org.springframework.boot.SpringApplication : Application run failed
-"org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+""2023-07-18 09:35:08,243 ERROR [main] org.springframework.boot.SpringApplication : Application run failed
+"org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
 	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
@@ -131,7 +131,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
 	at com.example.studentportal_android.StudentPortalAndroidApplication.main(StudentPortalAndroidApplication.java:10)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
 	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
@@ -148,7 +148,644 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
 	... 19 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 33 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:583)
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:85)
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:75)
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:233)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:182)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:165)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:76)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:325)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231)
+	at org.springframework.data.util.Lazy.get(Lazy.java:115)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 44 common frames omitted
+"2023-07-18 09:35:23,702 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : Starting StudentPortalAndroidApplication using Java 11.0.18 on cas-lap-nmasese with PID 9384 (C:\Users\nyasha.masese\StudentPortal_Android\target\classes started by Nyasha.Masese in C:\Users\nyasha.masese\StudentPortal_Android)
+""2023-07-18 09:35:23,704 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : No active profile set, falling back to 1 default profile: "default"
+""2023-07-18 09:35:24,243 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-07-18 09:35:24,280 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 4 JPA repository interfaces.
+""2023-07-18 09:35:24,727 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8027 (http)
+""2023-07-18 09:35:24,732 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+""2023-07-18 09:35:24,733 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.71]
+""2023-07-18 09:35:24,798 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/student] : Initializing Spring embedded WebApplicationContext
+""2023-07-18 09:35:24,798 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1058 ms
+""2023-07-18 09:35:25,082 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+""2023-07-18 09:35:25,266 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+""2023-07-18 09:35:25,628 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-18 09:35:25,729 WARN  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+""2023-07-18 09:35:25,729 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-18 09:35:25,730 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+""2023-07-18 09:35:25,738 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+""2023-07-18 09:35:25,739 INFO  [main] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+""2023-07-18 09:35:25,747 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2023-07-18 09:35:25,763 ERROR [main] org.springframework.boot.SpringApplication : Application run failed
+"org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.example.studentportal_android.StudentPortalAndroidApplication.main(StudentPortalAndroidApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 33 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:583)
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:85)
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:75)
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:233)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:182)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:165)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:76)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:325)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231)
+	at org.springframework.data.util.Lazy.get(Lazy.java:115)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 44 common frames omitted
+"2023-07-18 09:37:15,087 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : Starting StudentPortalAndroidApplication using Java 11.0.18 on cas-lap-nmasese with PID 2740 (C:\Users\nyasha.masese\StudentPortal_Android\target\classes started by Nyasha.Masese in C:\Users\nyasha.masese\StudentPortal_Android)
+""2023-07-18 09:37:15,092 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : No active profile set, falling back to 1 default profile: "default"
+""2023-07-18 09:37:15,625 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-07-18 09:37:15,658 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 4 JPA repository interfaces.
+""2023-07-18 09:37:16,089 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8027 (http)
+""2023-07-18 09:37:16,094 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+""2023-07-18 09:37:16,094 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.71]
+""2023-07-18 09:37:16,160 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/student] : Initializing Spring embedded WebApplicationContext
+""2023-07-18 09:37:16,160 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1029 ms
+""2023-07-18 09:37:16,438 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+""2023-07-18 09:37:16,623 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+""2023-07-18 09:37:17,009 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-18 09:37:17,124 WARN  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+""2023-07-18 09:37:17,124 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-18 09:37:17,126 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+""2023-07-18 09:37:17,134 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+""2023-07-18 09:37:17,136 INFO  [main] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+""2023-07-18 09:37:17,144 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2023-07-18 09:37:17,161 ERROR [main] org.springframework.boot.SpringApplication : Application run failed
+"org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.example.studentportal_android.StudentPortalAndroidApplication.main(StudentPortalAndroidApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 33 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:583)
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:85)
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:75)
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:233)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:182)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:165)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:76)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:325)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231)
+	at org.springframework.data.util.Lazy.get(Lazy.java:115)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 44 common frames omitted
+"2023-07-18 09:38:20,734 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : Starting StudentPortalAndroidApplication using Java 11.0.18 on cas-lap-nmasese with PID 7492 (C:\Users\nyasha.masese\StudentPortal_Android\target\classes started by Nyasha.Masese in C:\Users\nyasha.masese\StudentPortal_Android)
+""2023-07-18 09:38:20,736 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : No active profile set, falling back to 1 default profile: "default"
+""2023-07-18 09:38:21,262 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-07-18 09:38:21,296 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 4 JPA repository interfaces.
+""2023-07-18 09:38:21,722 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8027 (http)
+""2023-07-18 09:38:21,728 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+""2023-07-18 09:38:21,728 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.71]
+""2023-07-18 09:38:21,799 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/student] : Initializing Spring embedded WebApplicationContext
+""2023-07-18 09:38:21,799 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1024 ms
+""2023-07-18 09:38:22,087 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+""2023-07-18 09:38:22,262 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+""2023-07-18 09:38:22,625 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-18 09:38:22,728 WARN  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+""2023-07-18 09:38:22,728 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-18 09:38:22,730 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+""2023-07-18 09:38:22,740 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+""2023-07-18 09:38:22,741 INFO  [main] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+""2023-07-18 09:38:22,750 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2023-07-18 09:38:22,768 ERROR [main] org.springframework.boot.SpringApplication : Application run failed
+"org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.example.studentportal_android.StudentPortalAndroidApplication.main(StudentPortalAndroidApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 33 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:583)
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:85)
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:75)
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:233)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:182)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:165)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:76)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:325)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231)
+	at org.springframework.data.util.Lazy.get(Lazy.java:115)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 44 common frames omitted
+"2023-07-18 09:40:44,028 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : Starting StudentPortalAndroidApplication using Java 11.0.18 on cas-lap-nmasese with PID 5336 (C:\Users\nyasha.masese\StudentPortal_Android\target\classes started by Nyasha.Masese in C:\Users\nyasha.masese\StudentPortal_Android)
+""2023-07-18 09:40:44,030 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : No active profile set, falling back to 1 default profile: "default"
+""2023-07-18 09:40:44,553 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-07-18 09:40:44,587 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 4 JPA repository interfaces.
+""2023-07-18 09:40:44,996 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8027 (http)
+""2023-07-18 09:40:45,001 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+""2023-07-18 09:40:45,002 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.71]
+""2023-07-18 09:40:45,068 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/student] : Initializing Spring embedded WebApplicationContext
+""2023-07-18 09:40:45,068 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1001 ms
+""2023-07-18 09:40:45,344 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+""2023-07-18 09:40:45,521 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+""2023-07-18 09:40:45,882 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-18 09:40:45,977 WARN  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+""2023-07-18 09:40:45,977 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-18 09:40:45,979 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+""2023-07-18 09:40:45,992 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+""2023-07-18 09:40:45,994 INFO  [main] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+""2023-07-18 09:40:46,002 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2023-07-18 09:40:46,018 ERROR [main] org.springframework.boot.SpringApplication : Application run failed
+"org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.example.studentportal_android.StudentPortalAndroidApplication.main(StudentPortalAndroidApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 33 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:583)
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:85)
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:75)
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:233)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:182)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:165)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:76)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:325)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231)
+	at org.springframework.data.util.Lazy.get(Lazy.java:115)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 44 common frames omitted
+"2023-07-18 09:41:12,238 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : Starting StudentPortalAndroidApplication using Java 11.0.18 on cas-lap-nmasese with PID 2056 (C:\Users\nyasha.masese\StudentPortal_Android\target\classes started by Nyasha.Masese in C:\Users\nyasha.masese\StudentPortal_Android)
+""2023-07-18 09:41:12,240 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : No active profile set, falling back to 1 default profile: "default"
+""2023-07-18 09:41:12,772 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-07-18 09:41:12,806 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 4 JPA repository interfaces.
+""2023-07-18 09:41:13,203 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8027 (http)
+""2023-07-18 09:41:13,211 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+""2023-07-18 09:41:13,211 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.71]
+""2023-07-18 09:41:13,285 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/student] : Initializing Spring embedded WebApplicationContext
+""2023-07-18 09:41:13,285 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1004 ms
+""2023-07-18 09:41:13,555 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+""2023-07-18 09:41:13,721 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+""2023-07-18 09:41:14,075 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-18 09:41:14,172 WARN  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+""2023-07-18 09:41:14,173 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-18 09:41:14,174 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+""2023-07-18 09:41:14,183 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+""2023-07-18 09:41:14,184 INFO  [main] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+""2023-07-18 09:41:14,192 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2023-07-18 09:41:14,209 ERROR [main] org.springframework.boot.SpringApplication : Application run failed
+"org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.example.studentportal_android.StudentPortalAndroidApplication.main(StudentPortalAndroidApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 33 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:583)
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:85)
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:75)
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:233)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:182)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:165)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:76)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:325)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231)
+	at org.springframework.data.util.Lazy.get(Lazy.java:115)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 44 common frames omitted
+"2023-07-18 09:44:43,837 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : Starting StudentPortalAndroidApplication using Java 11.0.18 on cas-lap-nmasese with PID 9440 (C:\Users\nyasha.masese\StudentPortal_Android\target\classes started by Nyasha.Masese in C:\Users\nyasha.masese\StudentPortal_Android)
+""2023-07-18 09:44:43,839 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : No active profile set, falling back to 1 default profile: "default"
+""2023-07-18 09:44:44,359 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-07-18 09:44:44,393 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 4 JPA repository interfaces.
+""2023-07-18 09:44:44,795 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8027 (http)
+""2023-07-18 09:44:44,800 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+""2023-07-18 09:44:44,800 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.71]
+""2023-07-18 09:44:44,867 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/student] : Initializing Spring embedded WebApplicationContext
+""2023-07-18 09:44:44,867 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 993 ms
+""2023-07-18 09:44:45,134 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+""2023-07-18 09:44:45,304 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+""2023-07-18 09:44:45,646 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-18 09:44:45,743 WARN  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+""2023-07-18 09:44:45,743 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-18 09:44:45,744 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+""2023-07-18 09:44:45,752 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+""2023-07-18 09:44:45,753 INFO  [main] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+""2023-07-18 09:44:45,761 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2023-07-18 09:44:45,778 ERROR [main] org.springframework.boot.SpringApplication : Application run failed
+"org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.example.studentportal_android.StudentPortalAndroidApplication.main(StudentPortalAndroidApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 33 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:583)
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:85)
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:75)
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:233)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:182)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:165)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:76)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:325)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231)
+	at org.springframework.data.util.Lazy.get(Lazy.java:115)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 44 common frames omitted
+"2023-07-18 09:45:13,943 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : Starting StudentPortalAndroidApplication using Java 11.0.18 on cas-lap-nmasese with PID 10500 (C:\Users\nyasha.masese\StudentPortal_Android\target\classes started by Nyasha.Masese in C:\Users\nyasha.masese\StudentPortal_Android)
+""2023-07-18 09:45:13,945 INFO  [main] com.example.studentportal_android.StudentPortalAndroidApplication : No active profile set, falling back to 1 default profile: "default"
+""2023-07-18 09:45:14,524 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-07-18 09:45:14,558 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 4 JPA repository interfaces.
+""2023-07-18 09:45:14,997 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8027 (http)
+""2023-07-18 09:45:15,002 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+""2023-07-18 09:45:15,002 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.71]
+""2023-07-18 09:45:15,066 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/student] : Initializing Spring embedded WebApplicationContext
+""2023-07-18 09:45:15,066 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1077 ms
+""2023-07-18 09:45:15,352 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+""2023-07-18 09:45:15,531 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+""2023-07-18 09:45:15,893 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-18 09:45:15,989 WARN  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+""2023-07-18 09:45:15,989 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-18 09:45:15,991 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+""2023-07-18 09:45:16,001 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+""2023-07-18 09:45:16,002 INFO  [main] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+""2023-07-18 09:45:16,010 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2023-07-18 09:45:16,030 ERROR [main] org.springframework.boot.SpringApplication : Application run failed
+"org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeController' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\controller\DegreeController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.example.studentportal_android.StudentPortalAndroidApplication.main(StudentPortalAndroidApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'degreeServiceImpl' defined in file [C:\Users\nyasha.masese\StudentPortal_Android\target\classes\com\example\studentportal_android\service\impl\DegreeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'degreeRepository' defined in com.example.studentportal_android.repository.DegreeRepository defined in @EnableJpaRepositories declared on PortalConfig: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.studentportal_android.domain.Degree
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
